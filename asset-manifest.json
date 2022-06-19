@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NixonWu/static/css/main.87140a36.chunk.css",
-    "main.js": "/NixonWu/static/js/main.b1b39df7.chunk.js",
-    "main.js.map": "/NixonWu/static/js/main.b1b39df7.chunk.js.map",
+    "main.css": "/NixonWu/static/css/main.d604f804.chunk.css",
+    "main.js": "/NixonWu/static/js/main.731a24dd.chunk.js",
+    "main.js.map": "/NixonWu/static/js/main.731a24dd.chunk.js.map",
     "runtime-main.js": "/NixonWu/static/js/runtime-main.8e1194d0.js",
     "runtime-main.js.map": "/NixonWu/static/js/runtime-main.8e1194d0.js.map",
     "static/css/2.2fbec23d.chunk.css": "/NixonWu/static/css/2.2fbec23d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.5000ebed.chunk.js.map": "/NixonWu/static/js/2.5000ebed.chunk.js.map",
     "index.html": "/NixonWu/index.html",
     "static/css/2.2fbec23d.chunk.css.map": "/NixonWu/static/css/2.2fbec23d.chunk.css.map",
-    "static/css/main.87140a36.chunk.css.map": "/NixonWu/static/css/main.87140a36.chunk.css.map",
+    "static/css/main.d604f804.chunk.css.map": "/NixonWu/static/css/main.d604f804.chunk.css.map",
     "static/js/2.5000ebed.chunk.js.LICENSE.txt": "/NixonWu/static/js/2.5000ebed.chunk.js.LICENSE.txt",
     "static/media/NixonWu_Resume.4f8e1001.pdf": "/NixonWu/static/media/NixonWu_Resume.4f8e1001.pdf",
     "static/media/icons8-azure-480.63d1e1c1.png": "/NixonWu/static/media/icons8-azure-480.63d1e1c1.png",
@@ -19,7 +19,6 @@
     "static/media/icons8-git-480.a54d3fa4.png": "/NixonWu/static/media/icons8-git-480.a54d3fa4.png",
     "static/media/icons8-java-480.7506ee0b.png": "/NixonWu/static/media/icons8-java-480.7506ee0b.png",
     "static/media/icons8-mongodb-480.a8889d62.png": "/NixonWu/static/media/icons8-mongodb-480.a8889d62.png",
-    "static/media/icons8-mysql-logo-480.9b2e69d9.png": "/NixonWu/static/media/icons8-mysql-logo-480.9b2e69d9.png",
     "static/media/icons8-nodejs-480.a4713ff2.png": "/NixonWu/static/media/icons8-nodejs-480.a4713ff2.png",
     "static/media/icons8-react-native-480.7aa3e743.png": "/NixonWu/static/media/icons8-react-native-480.7aa3e743.png"
   },
@@ -27,7 +26,7 @@
     "static/js/runtime-main.8e1194d0.js",
     "static/css/2.2fbec23d.chunk.css",
     "static/js/2.5000ebed.chunk.js",
-    "static/css/main.87140a36.chunk.css",
-    "static/js/main.b1b39df7.chunk.js"
+    "static/css/main.d604f804.chunk.css",
+    "static/js/main.731a24dd.chunk.js"
   ]
 }
