@@ -11,13 +11,13 @@ function Home() {
   return (
     <div id="Home" className="Home-Container">
       <div className="Navbar-Container">
-      <Navbar className="Navbar-Content" expand="lg">
+      <Navbar className="Navbar-Content" expand="lg" fixed="top">
 
         <Navbar.Brand href="#home">
-          <img id="logo" alt="nixon" src={logo}></img>
+          <img id="logo" alt="nixon" src={logo2}></img>
         </Navbar.Brand>
 
-        <Nav className="me-auto"></Nav>
+        <Nav className="me-auto" navbarScroll></Nav>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="toggler"
@@ -44,13 +44,13 @@ function Home() {
               // .start();
               typewriter
                 .pauseFor(1000)
-                .typeString("Hi I'm <strong>Nixon Wu</strong>. I'm a <strong>Software Developer.</strong>")
+                .typeString("Hi I'm <strong class='typewriter-keywords'>Nixon Wu</strong>. I'm a <strong class='typewriter-keywords'>Software Developer</strong>.")
                 .pauseFor(800)
                 .deleteChars(19)
-                .typeString("<strong>Full Stack Developer</strong>.")
+                .typeString("<strong class='typewriter-keywords'>Full Stack Developer</strong>.")
                 .pauseFor(800)
                 .deleteChars(21)
-                .typeString("<strong>Software Engineer</strong>.")
+                .typeString("<strong class='typewriter-keywords'>Software Engineer</strong>.")
                 .start();
              }}
         />

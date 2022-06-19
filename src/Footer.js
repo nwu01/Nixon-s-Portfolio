@@ -1,6 +1,5 @@
 import './Footer.css';
 import {Container, Row, Col} from 'react-bootstrap';
-import linkedin from './media/img/icons8-linkedin-circled-50.png';
 
 function Footer() {
   return (
@@ -14,11 +13,12 @@ function Footer() {
                     <li>
                         <a href="https://github.com/nwu01"><i class="fab fa-github icon"></i></a>
                     </li>
-
+                    <li>
+                        <a href="mailto:nixonwu01@gmail.com"><i class="fa fa-envelope icon"></i></a>
+                    </li>
                     <li>
                         <a href="https://www.linkedin.com/in/nixonwu/"><i class="fab fa-linkedin-in icon"></i></a>
                     </li>
-
                 </ul>
             </Col>
             <Col md={{ span: 3, offset: 0 }}>{``}</Col>

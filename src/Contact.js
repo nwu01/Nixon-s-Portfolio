@@ -6,7 +6,6 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import{ init } from '@emailjs/browser';
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import Location from './media/img/location_vancouver.png'
 import {LoadScript, Marker, GoogleMap, useJsApiLoader, useLoadScript } from '@react-google-maps/api'
 import { Container, Row, Col } from 'react-bootstrap';
 

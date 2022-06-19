@@ -12,9 +12,10 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #282c34;
+    background-color: #f5f5f5;
   }
 .container{
-  background-color: #f5f5f5;
+  background-color: white;
 }
 .ContactForm{
   display:flex;
@@ -72,10 +73,14 @@
   }
 
 .submit-btn:hover {
-  background-color: #1DA1F2;
-  box-shadow: 0px 15px 20px rgba(29 ,161, 242, 0.4);
+  background-color: #14213d;
+  box-shadow: 0px 15px 20px rgba(20 ,33, 61, 0.4);
   color: #fff;
   transform: translateY(-7px);
+}
+.form-control:focus{
+  border-color:white;
+  box-shadow:0 0 0 0.25rem rgba(20 ,33, 61, 0.4);
 }
 .contact-info-col{
   display:flex;
@@ -83,10 +88,43 @@
   padding: 1em 0 0 0;
   letter-spacing: 0.5px;
 }
-.contact-info{
+.contact-info {
   display:flex;
   align-items: center;
   font-size: 18px;
   font-weight: bold;
   padding:10px 0;
+
+  text-decoration: underline;
+  background-image: linear-gradient(
+    to right,
+    #14213d,
+    #14213d 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  padding: 5px 0;
+  position: relative;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.contact-info:before {
+  content: '';
+  background: #14213d;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.contact-info:hover{
+  background-position: 0;
+  cursor: pointer;
+}
+.contact-info:hover::before{
+  width:100%;
 }

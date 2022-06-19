@@ -13,7 +13,6 @@ function Services() {
       </Row>
 
       <div className="Services-Content">
-        
         <Row>
           <Col xs={12} sm={12} md={6} lg={4} className="mb-2">
             <Card className="pt-5 pb-5 service-card">
@@ -57,11 +56,9 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-
-          
         </Row>
       </div>
-      {/* <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">gegegege</div> */}
+  
     </div>
   );
 }

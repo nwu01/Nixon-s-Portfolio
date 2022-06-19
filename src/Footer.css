@@ -1,5 +1,5 @@
 .Footer-Container{
-    background-color: #161c2d !important;
+    background-color: #14213d !important;
     min-height: 15vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .Footer-Content {
-    background-color: #161c2d !important;
+    background-color: #14213d !important;
 }
 
 .Footer-ul {
@@ -39,12 +39,9 @@ ul li a .icon {
     display: flex;
     padding: 0;
     margin: 0;
-  }
-  
-  ul li {
     list-style: none;
   }
-
+  
   ul li a {
     width: 35px;
     height: 35px;
