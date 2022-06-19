@@ -51,7 +51,10 @@
 .typewriter-keywords{
   color: #fca311;
 }
-
+.navbar-toggler{
+  background-color:white;
+  margin-right: 1rem;
+}
 #responsive-navbar-nav{
   justify-content: flex-end;
 }
