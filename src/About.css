@@ -3,9 +3,6 @@
 }
 
 .About-Content {
-    /* background-color: #e5e5e5; */
- 
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,13 +16,11 @@
   background:#14213d !important;
   color: white;
 }
-
 .vertical-timeline-element-icon{
   display:flex;
   justify-content: center;
   align-items: center;
 }
-
 .vertical-timeline-element-date{
   color: black;
 }
@@ -35,7 +30,9 @@
 .about-contact-me a{
   color:#fca311;
 }
-
 .timeline-resume{
   text-align: center;
+}
+.download-resume{
+  text-decoration: none !important;
 }

@@ -8,9 +8,6 @@ import softwareEng from './media/img/softwareengineer.png';
 function Services() {
   return (
     <div id="Services" className="Services-Container">
-      <Row>
-        <p className="service-title">Services</p>
-      </Row>
 
       <div className="Services-Content">
         <Row>

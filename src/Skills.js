@@ -38,9 +38,6 @@ import mongodb from './media/img/icons8-mongodb-480.png';
 function Skills() {
   return (
     <div id="Skills" className="Skills-Container">
-       <Row>
-        <p className="content-title">Skills</p>
-      </Row>
 
       <div className="Skills-Content">
         
