@@ -23,7 +23,9 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "react-toastify": "^8.2.0",
+    "react-tsparticles": "^2.1.0",
     "react-vertical-timeline-component": "^3.5.2",
+    "tsparticles": "^2.1.0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^1.1.2"
   },

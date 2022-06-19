@@ -1,4 +1,5 @@
 import './Home.css';
+import Particle from './components/Particle'
 import {Navbar, Nav, Container, NavDropdown,} from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 
@@ -7,10 +8,26 @@ import logo2 from './media/img/nixon_logo_white.png';
 
 
 
+
 function Home() {
+  const particlesInit = async (main) => {
+    console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+ 
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
   return (
     <div id="Home" className="Home-Container">
       <div className="Navbar-Container">
+
+      <Particle/>
       <Navbar className="Navbar-Content" expand="lg" fixed="top">
 
         <Navbar.Brand href="#home">
@@ -36,6 +53,7 @@ function Home() {
       </div>
 
       <div className="Home-Content">
+        
         <Typewriter
             onInit={(typewriter) => {
               // typewriter.typeString("Hi I'm <strong>Nixon Wu</strong>. ")
@@ -54,8 +72,7 @@ function Home() {
                 .start();
              }}
         />
-        {/* <img src={logo}></img>
-        <img src={logo2}></img> */}
+
 
 
       </div>

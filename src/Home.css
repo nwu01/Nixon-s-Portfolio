@@ -47,9 +47,9 @@
 .navbar-brand{
   margin-left: 1rem;
 }
-git p
+
 .typewriter-keywords{
-  color: #fca311;
+  color: #fca311 !important;
 }
 .navbar-toggler{
   background-color:white;
