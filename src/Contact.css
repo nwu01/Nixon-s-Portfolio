@@ -128,3 +128,11 @@
 .contact-info:hover::before{
   width:100%;
 }
+
+@media (max-width: 991px){
+  .contact-info-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -10,7 +10,11 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #282c34;
-  }
+}
+
+.Timeline-Container{
+  padding-top: 5em !important;
+}
 .vertical-timeline-element-content:hover
 {
   background:#14213d !important;
@@ -23,10 +27,9 @@
 }
 .vertical-timeline-element-date{
   color: black;
-}
-.vertical-timeline-element-date:hover{
   font-weight:bolder !important;
 }
+
 .about-contact-me a{
   color:#fca311;
 }
@@ -35,4 +38,9 @@
 }
 .download-resume{
   text-decoration: none !important;
+}
+@media (max-width:1169px){
+  .vertical-timeline-element-date{
+    color: white;
+  }
 }

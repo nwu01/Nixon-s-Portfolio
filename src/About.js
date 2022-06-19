@@ -8,7 +8,7 @@ function About() {
   return (
     <div id="About" className="About-Container">
   
-  <VerticalTimeline>
+  <VerticalTimeline className='Timeline-Container'>
 
     <VerticalTimelineElement
       className="vertical-timeline-element--work"

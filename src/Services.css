@@ -49,11 +49,23 @@
 .card-title {
     color: black;
     font-size: 1.5rem;
-
+    padding-bottom: 0.5rem;
 }
 
 .card-text {
     color: black;
     font-size: 1rem;
-    
+}
+
+@media (max-width: 991px){
+    .Service-Col{
+        margin-bottom: 1rem;
+    }
+   
+}
+
+@media (max-width: 1205px) and (min-width: 991px) {
+    .service-card-title{
+        font-size:1.1rem !important;
+    }
 }

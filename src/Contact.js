@@ -42,9 +42,6 @@ function Map(){
 }
 const Contact = () => {
 
-
-
-
   const {
     register,
     handleSubmit,
