@@ -10,8 +10,6 @@ import cSharp from './media/img/icons8-c-sharp-logo-480.png';
 import javascript from './media/img/icons8-javascript-480.png';
 import html from './media/img/icons8-html-480.png';
 import sql from './media/img/icons8-sql-96.png';
-import rstudio from './media/img/icons8-r-64.png';
-import mysql from './media/img/icons8-mysql-logo-480.png';
 
 
 // Frameworks
