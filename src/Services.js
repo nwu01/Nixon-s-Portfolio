@@ -17,9 +17,8 @@ function Services() {
                 <div className="mb-3"><img src={webdev} width="50" height="50" alt="web dev"></img></div>
                 <Card.Title className='service-card-title'>Web Design & Development</Card.Title>
                 
-                <Card.Text className="text-muted">
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                <Card.Text className="text-muted service-text">
+                 Clean, readable, modern designs - optimized for performance, SEO, and turning users to customers.
                 </Card.Text>
 
               </Card.Body>
@@ -32,23 +31,21 @@ function Services() {
 
                 <Card.Title className='service-card-title'>Backend Development</Card.Title>
                 
-                <Card.Text className="text-muted">
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                <Card.Text className="text-muted service-text">
+                  Creating clean, robust, and secure work for servers, applications, and databases such as database Design, endpoints, and API.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} sm={12} md={12} lg={4} className="Service-Col">
             <Card className="pt-5 pb-5 service-card">
-              <Card.Body >
+              <Card.Body>
                 <div className="mb-3"><img src={softwareEng} width="50" height="50" alt="web dev"></img></div>
                 
                 <Card.Title className='service-card-title'>Software Engineering</Card.Title>
                 
-                <Card.Text className="text-muted">
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                <Card.Text className="text-muted service-text">
+                  Working on the latest technology stacks to design scalable and reliable software solutions for any business problems.
                 </Card.Text>
               </Card.Body>
             </Card>

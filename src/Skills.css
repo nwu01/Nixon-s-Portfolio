@@ -118,7 +118,7 @@
 .card-title:hover::before{
   width:100%;
 }
-.card-title{
+.icon-name{
   background-image: linear-gradient(
     to right,
     #fca311,
@@ -133,7 +133,7 @@
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-.card-title:before {
+.icon-name:before {
   content: '';
   background: #fca311;
   display: block;

@@ -46,6 +46,39 @@
     transform: translateY(-7px);
 }
 
+.service-card-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    background-image: linear-gradient(
+      to right,
+      #fca311,
+      #fca311 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .service-card-title:before {
+    content: '';
+    background: #fca311;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
 .card-title {
     color: black;
     font-size: 1.5rem;
@@ -57,6 +90,9 @@
     font-size: 1rem;
 }
 
+.service-text{
+    letter-spacing: 0.25px;
+}
 @media (max-width: 991px){
     .Service-Col{
         margin-bottom: 1rem;
