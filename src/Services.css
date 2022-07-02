@@ -78,6 +78,9 @@
     height: 3px;
     transition: all 0.3s ease-in-out;
   }
+.service-card-body{
+    padding: 2.5rem 0.5rem;
+}
 
 .card-title {
     color: black;

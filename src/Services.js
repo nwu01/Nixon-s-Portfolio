@@ -13,7 +13,7 @@ function Services() {
         <Row>
           <Col xs={12} sm={12} md={12} lg={4} className="Service-Col">
             <Card className="pt-5 pb-5 service-card">
-              <Card.Body>
+              <Card.Body className="service-card-body">
                 <div className="mb-3"><img src={webdev} width="50" height="50" alt="web dev"></img></div>
                 <Card.Title className='service-card-title'>Web Design & Development</Card.Title>
                 
@@ -26,7 +26,7 @@ function Services() {
           </Col>
           <Col xs={12} sm={12} md={12} lg={4} className="Service-Col">
             <Card className="pt-5 pb-5 service-card">
-              <Card.Body>
+              <Card.Body className="service-card-body">
               <div className="mb-3"><img src={webdev2} width="50" height="50" alt="web dev 2"></img></div>
 
                 <Card.Title className='service-card-title'>Backend Development</Card.Title>
@@ -39,7 +39,7 @@ function Services() {
           </Col>
           <Col xs={12} sm={12} md={12} lg={4} className="Service-Col">
             <Card className="pt-5 pb-5 service-card">
-              <Card.Body>
+              <Card.Body className="service-card-body">
                 <div className="mb-3"><img src={softwareEng} width="50" height="50" alt="web dev"></img></div>
                 
                 <Card.Title className='service-card-title'>Software Engineering</Card.Title>
