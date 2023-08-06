@@ -21,7 +21,7 @@ function Home() {
       <Particle/>
       <Navbar className="Navbar-Content" expand="lg" fixed="top">
 
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Home">
           <img id="logo" alt="nixon" src={logo2}></img>
         </Navbar.Brand>
 
