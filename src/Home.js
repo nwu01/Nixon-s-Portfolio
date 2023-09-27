@@ -15,7 +15,7 @@ function Home() {
   const particlesLoaded = (container) => console.log(container);
 
   return (
-    <div id="Home" className="Home-Container">
+    <section id="Home" className="Home-Container">
       <div className="Navbar-Container">
 
       <Particle/>
@@ -67,7 +67,7 @@ function Home() {
 
 
       </div>
-    </div>
+    </section>
   );
 }
 

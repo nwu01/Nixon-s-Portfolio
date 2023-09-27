@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function About() {
   return (
-    <div id="About" className="About-Container">
+    <section id="About" className="About-Container">
   
   <VerticalTimeline className='Timeline-Container'>
 
@@ -106,7 +106,7 @@ function About() {
 
     </VerticalTimeline>
 
-    </div>
+    </section>
   );
 }
 

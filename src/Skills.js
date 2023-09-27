@@ -35,7 +35,7 @@ import mongodb from './media/img/icons8-mongodb-480.png';
 // xl > 1200
 function Skills() {
   return (
-    <div id="Skills" className="Skills-Container">
+    <section id="Skills" className="Skills-Container">
 
       <div className="Skills-Content">
         
@@ -192,7 +192,7 @@ function Skills() {
 
       </div>
       
-    </div>
+    </section>
   );
 }
 

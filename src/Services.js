@@ -7,7 +7,7 @@ import softwareEng from './media/img/softwareengineer.png';
 
 function Services() {
   return (
-    <div id="Services" className="Services-Container">
+    <section id="Services" className="Services-Container">
 
       <div className="Services-Content">
         <Row>
@@ -53,7 +53,7 @@ function Services() {
         </Row>
       </div>
   
-    </div>
+    </section>
   );
 }
 
